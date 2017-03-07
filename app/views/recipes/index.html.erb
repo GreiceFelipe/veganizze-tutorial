@@ -1,0 +1,29 @@
+<h1>Listing recipes</h1>
+
+<table>
+  <thead>
+  <tr>
+    <th>Title</th>
+    <th>Ingredients</th>
+    <th>Directions</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+  </thead>
+
+  <tbody>
+  <tr ng-repeat="recipe in allRecipes">
+    <td>{{ recipe.title }}</td>
+    <td>{{ recipe.ingredients }}</td>
+    <td>{{ recipe.directions }}</td>
+    <td><a href="javascript:void(0)" ui-sref="recipes.show({ id: recipe.id })">Show</a></td>
+    <td><a href="javascript:void(0)" ui-sref="recipes.edit({ id: recipe.id })">Edit</a></td>
+    <td><a href="javascript:void(0)" ng-click="destroyRecipe(recipe.id, $index)">Destroy</a></td>
+  </tr>
+  </tbody>
+</table>
+
+<br>
+
+<a href="javascript:void(0)" ui-sref="recipes.new">New Recipe</a>

@@ -1,0 +1,17 @@
+<p>
+  <strong>Title:</strong>
+  {{ currentRecipe.title }}
+</p>
+
+<p>
+  <strong>Ingredients:</strong>
+  {{ currentRecipe.ingredients }}
+</p>
+
+<p>
+  <strong>Directions:</strong>
+  {{ currentRecipe.directions }}
+</p>
+
+<a href="javascript:void(0)" ui-sref="recipes.edit({ id: currentRecipe.id })">Edit</a>
+<a href="javascript:void(0)" ui-sref="recipes.index">Back</a>
