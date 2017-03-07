@@ -1,24 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Tutorial da internet do site:
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* http://feras.dito.com.br/posts/criando-uma-aplicacao-com-angularjs-e-ruby-on-rails-parte-1/
+* http://feras.dito.com.br/posts/criando-uma-aplicacao-com-angularjs-e-ruby-on-rails-parte-2/
